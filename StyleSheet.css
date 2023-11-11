@@ -1,0 +1,125 @@
+/* styles.css */
+.navbar-container {
+  text-align: right;
+  margin-right: 50px;
+}
+
+.navbar-bg {
+  background-color: #00974d;
+  position: absolute;
+  width: 1440px;
+  height: 42px;
+  left: 0px;
+  top: 0px;
+  font-family: Roboto Condensed;
+  text-align: center;
+  overflow: hidden;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+li a img {
+  width: 30px;
+  /* Adjust the width to your desired size */
+  height: auto;
+  /* This keeps the aspect ratio while setting the width */
+  vertical-align: bottom;
+
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans;
+  background-color: #0044AADD;
+}
+
+.header {
+  background-color: #9C78E4;
+  padding: 20px;
+  text-align: center;
+  font-family: Open Sans;
+  text-decoration: none;
+}
+
+h1 {
+  color: #000000;
+  font-family: Bebas Neue;
+}
+
+p {
+  color: #000000;
+}
+
+/* New styles for image divs */
+* {
+  box-sizing: border-box;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#castle {
+  width: 125%;
+  height: 125%;
+  grid-column: 1 / 2;
+}
+
+#mascot {
+  width: 125%;
+  height: 125%;
+  grid-column: 2 / 3;
+}
+
+#mascot2 {
+  width: 125%;
+  height: 125%;
+  grid-column: 3 / 4;
+
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 300px;
+  padding: 10px;
+  left: 8rem;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 95px;
+  width: 100%;
+  text-align: center;
+  background: #9C78E4;
+  font-family: Open Sans;
+}
